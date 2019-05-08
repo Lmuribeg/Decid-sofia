@@ -1,0 +1,202 @@
+*{
+margin: 0 auto;
+padding: 0;
+font-family: arial;
+}
+
+#btUp{
+  width: 80px;
+ height: 80px;
+ background-color: red;
+ border-radius: 50%;
+ box-shadow: 4px 4px 4px black;
+ position: fixed;
+ cursor: pointer;
+ right: 10px;
+ bottom: 10px;
+ display: none;
+z-index: 999;
+}
+
+header{width: 100%;
+      height: 840px;
+      background-image: url(../img/00.jpg);
+      background-size: cover;
+             /*background-attachment: fixed; image estatica*/
+             background-repeat: no-repeat;
+}
+
+header h3 {text-align: center;
+       font-size: 40px;
+       color: white;
+       padding-top: 130px;
+       opacity: 0;
+       margin-left: -200px;
+
+ 
+ }
+ .t2{padding-top: 50px;
+ 	margin-left: 200px;}
+
+#menu{width: 100%;
+  height: 60px;
+  background-color: black;
+
+}
+.menuEstatico{
+	position: fixed;
+	top: 0;
+  z-index: 1;
+}
+
+#menu ul{width: 50%;
+     height: 50px;
+}
+
+#menu ul li{width: 15%;
+        color: white;
+        font-size: 20px;
+        float: left;
+        list-style: none;
+        text-align: center;
+        margin-top: 15px;
+        cursor: pointer;
+
+
+}
+
+#menu ul li:hover{background-color: gray;
+
+}
+
+.sec{width: 100%;
+ height: 400px;
+ padding-top: 140px;
+
+
+}
+
+.sec1 h3{font-size: 40px;
+   text-align: center;
+   margin: 0px 0 40px 0;
+   padding-top: 150px;
+
+}
+
+.sec1 p{width: 70%;
+  text-align: center;
+  line-height: 35px;
+  color: gray;
+  opacity: 0;
+  padding: 40px 0;
+
+}
+
+/*.sec2 {width: 100%;
+      height: 600px;
+      background-image: url(../img/01.jpg);
+      background-size: 100%;
+
+} */
+.sec3 h1{
+  padding: 60px 0;
+}
+
+
+.galeria{width: 50%;
+
+}
+
+.galeria img{width: 42%;
+        margin: 80px  2%; 
+
+}
+
+footer {width: 100%;
+   height: 50px;
+   text-align: center;
+   color: white;
+   background: black;
+   line-height: 50px;
+}
+
+.cen{
+  text-align: center;
+  color: black;
+}
+
+.cen:hover{
+  text-align: center;
+  color: red;
+}
+.image img{
+  width: 100%;
+}
+.sec4 h1{
+  text-align: center;
+  padding: 60px 0;
+}
+#seccion5{
+  text-align: center;
+  padding: 60px 0;
+}
+.foto img{
+  width: 400px;
+  height: 400px;
+}
+.cont{
+  display: flex;
+
+}
+.imag{
+  margin-top: -4s0px;
+}
+.imag img{
+  width: 400px;
+  height: 600px;
+}
+.modal{
+  max-width: 900px;
+  max-height: 550px;
+  
+}
+.sec5{
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+.contText{
+  padding: 30px 20px;
+}
+
+.logo{
+  position: absolute;
+  top: 120px;
+  left: 0px; /* left: 200px; */
+}
+.logo img{
+  width: 500px;
+
+}
+.logoo{
+  display: none;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+  .logo{
+  position: absolute;
+  top: 120px;
+  left: 0px; /* left: 200px; */
+  display: none;
+  }
+  .logoo{
+  display: block;
+  width: 1px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  }
+}
